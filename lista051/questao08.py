@@ -5,8 +5,10 @@ Desenvolver um programa que apresente todos os valores numéricos inteiros ímpa
 cont = 0
 
 while (cont <= 20):
-    b = cont % 2
-    if (b == 1):
-        print(f"{cont} é ímpar")
+    a = cont % 2
+    if (a == 1):
+        print(f"{cont} é um número ímpar.")
+    else:
+        print(f"{cont} não é um número ímpar.")
 
     cont = cont + 1
